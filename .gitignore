@@ -1,0 +1,61 @@
+# Python related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+*.log
+
+# Flask specific
+instance/
+*.sqlite3
+*.db
+*.sqlite
+
+# Pipenv
+Pipfile.lock
+
+# Virtual environments
+.env/
+*.venv
+
+# Pytest cache
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker related
+*.dockerfile
+docker-compose.yml
+*.tar
+
+# Terraform related
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+
+# AWS CLI and Terraform cache
+.aws/
+.terraformrc
+
+# Local .env files
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
